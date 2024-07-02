@@ -31,12 +31,12 @@ anyWebLinkinkElement.href = anyWebLinkText;
 anyWebLinkinkElement.textContent = anyWebLinkText;
 
 // profile picture
-// const slackProfilePicture =
-//   "";
-// const slackProfilePictureElement = document.querySelector(
-//   '[data-testid="slackProfilePicture" ]'
-// );
-// slackProfilePictureElement.src = slackProfilePicture;
+const slackProfilePicture =
+  "images/profile.png";
+const slackProfilePictureElement = document.querySelector(
+  '[data-testid="slackProfilePicture" ]'
+);
+slackProfilePictureElement.src = slackProfilePicture;
 
 // show current time
 const currentTimeElement = document.querySelector(

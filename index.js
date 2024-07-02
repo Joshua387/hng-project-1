@@ -32,7 +32,7 @@ anyWebLinkinkElement.textContent = anyWebLinkText;
 
 // profile picture
 const slackProfilePicture =
-  "/hngstage1/images/IMG_20240702_085005_(350_x_350_pixel).png";
+  "/hngstage1/images/profile.png";
 const slackProfilePictureElement = document.querySelector(
   '[data-testid="slackProfilePicture" ]'
 );

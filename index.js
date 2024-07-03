@@ -9,25 +9,30 @@ const slackEmail = "vaderhagas3@gmail.com";
 document.querySelector('[data-testid="slackEmail"]').innerText = slackEmail;
 
 // show hnglink
+const hngLink = "https://hng.tech/learn";
 const hngLinkText = "hng.tech/learn";
+
 const hngLinkElement = document.querySelector('[data-testid="hngLink"]');
-hngLinkElement.href = hngLinkText;
+hngLinkElement.href = hngLink;
 hngLinkElement.textContent = hngLinkText;
 
 // show keywordLink
+const keyWordLink = "https://keyword.dog";
 const keyWordLinkText = "keyword.dog";
+
 const keyWordLinkElement = document.querySelector(
   '[data-testid="keywordLink"]'
 );
-keyWordLinkElement.href = keyWordLinkText;
+keyWordLinkElement.href = keyWordLink;
 keyWordLinkElement.textContent = keyWordLinkText;
 
 //show scrapeanywebLink
+const anyWebLink = "https://scrapeanyweb.site";
 const anyWebLinkText = "scrapeanyweb.site";
 const anyWebLinkinkElement = document.querySelector(
   '[data-testid="scrapeanywebLink"]'
 );
-anyWebLinkinkElement.href = anyWebLinkText;
+anyWebLinkinkElement.href = anyWebLink;
 anyWebLinkinkElement.textContent = anyWebLinkText;
 
 // profile picture
